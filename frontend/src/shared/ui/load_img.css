@@ -1,0 +1,11 @@
+.left-aligned-img{
+	width: 900px;
+	display: block;
+	height: 700px;
+	margin-left: auto;
+	position: absolute;
+	right : 5px;
+	top : 206.8px;	
+	border-radius: 8px;
+}
+

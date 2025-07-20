@@ -1,0 +1,53 @@
+.button_style0{
+  font-family: 'Raleway';
+  font-size: 24px;
+  font-weight: 400;
+  width: 100px;
+  height: 35px;
+  background: 	#696969;
+  border-radius: 8px;
+  border-color: #2F4F4F;
+}
+.button_style0:hover{
+  background-color: #808080;
+}
+.button_style0:active{
+  background-color: #C0C0C0;
+}
+.button_style1{
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  color: #C0B15A;
+  width: 404px;
+  height: 58.93px;
+  border: 2px solid #C0B15A;
+  background-color: transparent;
+}
+.button_style1:hover{
+  background-color: #2F4F4F;
+}
+.button_style1:active{
+  background-color: #708090;
+}
+.button_style2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  width: 105px;
+  height: 57px;
+  background-color: transparent;
+  border: transparent;
+}
+.button_style2:hover{
+  color: #808080;
+}
+.button_style2:active{
+  color: #696969;
+}

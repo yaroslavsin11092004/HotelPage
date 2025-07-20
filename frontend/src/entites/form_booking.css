@@ -1,0 +1,39 @@
+.form_booking{
+  background-color: transparent;
+  border: 3px solid #C0B15A;
+  border-radius: 8px;
+  width: 848px;
+  height: 128px;
+  margin: 1024px auto;
+  box-shadow: 
+    0 4px 20px rgba(184, 177, 136, 0.3), 
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset, 
+    0 0 30px rgba(184, 177, 136, 0.2) inset; 
+  
+  transition: all 0.3s ease;
+}
+.form_booking:hover {
+  box-shadow: 
+    0 6px 25px rgba(184, 177, 136, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.2) inset,
+    0 0 40px rgba(184, 177, 136, 0.3) inset;
+  transform: translateY(-2px);
+}
+
+.form_booking::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(184, 177, 136, 0.1), rgba(184, 177, 136, 0));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.form_booking:hover::before {
+  opacity: 1;
+}

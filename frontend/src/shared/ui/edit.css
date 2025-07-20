@@ -1,0 +1,35 @@
+.edit_style_container0{
+  margin: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+.edit_style_label0{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+.edit_style_input0{
+  width: 60%;
+  height: 50%;
+  padding: 12px 15px;
+  font-size: 24px;
+  border:1px solid #F4A460;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  background-color: #FFF5EE;
+}
+.edit_style_input0:focus{
+  outline: none;
+  border-color: #8B4513;
+  box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+}
+.edit_style_input0:invalid{
+  border-color: #E74C3C;
+}
+.edit_style_input0::placeholder{
+  color:#aaa;
+  opacity:1;
+}

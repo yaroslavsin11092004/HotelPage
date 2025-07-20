@@ -1,0 +1,15 @@
+{
+	"MsBuild": {
+		"AssemblySearchPath":[
+			"./services/",
+			"./",
+			"./interface/",
+			"./models/",
+			"./controllers/",
+			"./repositories/",
+			"./dto/"
+		],
+		 "EnablePackageAutoRestore": true
+	}
+}
+
